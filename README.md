@@ -1,7 +1,7 @@
 # 👋 Vasco Garcia Carvalho
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=6366F1&center=true&vCenter=true&width=520&lines=Software+Engineer;Building+accessible+developer+tools;Shipped+a+Sneakers+Marketplace" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=6366F1&center=true&vCenter=true&width=520&lines=Software+Engineer;Building+accessible+developer+tools;Shipped+a+Sneakers+Marketplace;Built+an+LSTM+Stock+Predictor" alt="Typing animation" />
 </div>
 
 I'm a Software Engineer with a background in Computer Science. I enjoy building tools that solve real problems — from making software development more accessible to visually impaired developers, to building consumer-facing platforms from scratch. I like taking an idea, shaping it into a product, and shipping it.
@@ -35,7 +35,33 @@ I'm a Software Engineer with a background in Computer Science. I enjoy building 
 
   <tr>
     <td>
-      <strong>Sneakers Marketplace</strong> — Buy &amp; Sell Sneakers Platform
+      <strong><a href="https://github.com/VascoGarciaCarvalho/prediction-algorithm">LSTM Stock Predictor</a></strong> — Deep Learning Stock Direction Forecasting
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><b>About the Project:</b> A deep learning pipeline that predicts daily stock price direction using a Conv1D → LSTM → Monte Carlo Dropout architecture, then evaluates the strategy against the S&amp;P 500 and a random baseline with a 3-sigma statistical test.</p>
+      <p><b>Key Features:</b></p>
+      <ul>
+        <li>Conv1D + LSTM model with Monte Carlo Dropout for uncertainty estimation</li>
+        <li>Feature engineering with technical indicators, insider transactions, and VADER news sentiment</li>
+        <li>Top-3 daily strategy backtested against S&amp;P 500 and 1,000 random simulations</li>
+        <li>3-phase sanity-check training workflow to validate the data pipeline before real training</li>
+      </ul>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" />
+      <img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white" />
+      <img src="https://img.shields.io/badge/Deep%20Learning-412991?style=flat&logo=openai&logoColor=white" />
+      <br/><br/>
+      <img src="https://raw.githubusercontent.com/VascoGarciaCarvalho/prediction-algorithm/main/backtest_results.png" alt="Backtest Results" width="100%" />
+    </td>
+  </tr>
+
+  <tr><td>&nbsp;</td></tr>
+
+  <tr>
+    <td>
+      <strong><a href="https://github.com/VascoGarciaCarvalho/marketplace-sneakers">Sneakers Marketplace</a></strong> — Buy &amp; Sell Sneakers Platform
     </td>
   </tr>
   <tr>
